@@ -1,0 +1,21 @@
+.cardContainer{
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(128, 218, 218);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform:translateZ(0);
+    transition: transform .25s ease-out;
+
+}
+.cardContainer:hover{
+    transform: scale(1.05);
+}
+h1{
+  font-size: 25px;
+}

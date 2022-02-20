@@ -1,0 +1,13 @@
+.cardlist{
+
+    width: 85vw;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+   
+    color:rgb(65, 55, 43);
+}
+/*const {monsters , searchField} = this.state;
+   const filteredMonsters = monsters.filter(monster => monster.name.toLowerCase().include(searchField.toLowerCase())
+   );*/
